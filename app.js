@@ -14,4 +14,14 @@ let rollin = (d20Sides) => {
   }
 }
 
-console.log(rollin(d20Sides))
+rollin(d20Sides)
+
+let showNumber = (number) => {
+  let placeholder = document.getElementById('placeholder')
+  placeholder.innerHTML = number
+  console.log(placeholder)
+}
+
+showNumber(number);
+
+let button = document.getElement
