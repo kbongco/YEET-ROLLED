@@ -14,14 +14,21 @@ let rollin = (d20Sides) => {
   }
 }
 
-rollin(d20Sides)
+let number = rollin(d20Sides)
+console.log(number)
+
+let test = document.querySelector('p')
+console.log(test)
+
+
 
 let showNumber = (number) => {
-  let placeholder = document.getElementById('placeholder')
-  placeholder.innerHTML = number
-  console.log(placeholder)
+  let place = document.getElementById('placeholder')
+  place.innerHTML = number
+  console.log(place)
 }
 
-showNumber(number);
+showNumber(number)
 
-let button = document.getElement
+let button = document.getElementById('YEET')
+

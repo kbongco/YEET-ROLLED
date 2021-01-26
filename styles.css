@@ -13,11 +13,15 @@ button{
   font-size:20px;
 }
 
-.button-container, .hexagon-container{
+.button-container, .hexagon-container, .placeholder-container{
   display:grid;
   justify-content:center;
   align-content:center;
   margin-bottom: 20px;
+}
+
+.placeholder-container{
+  font-size: 60px;
 }
 
 .hexagon {
